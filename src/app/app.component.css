@@ -1,0 +1,24 @@
+.container {
+  height: 90%;
+  top: 5rem;
+  display: flex;
+  margin: .2px;
+  /* align-items: center; */
+  justify-content: top;
+  flex-direction: column;
+}
+
+.mat-card{
+    border: 1px solid #000;
+    border-radius: 10px !important;
+    margin: .2rem;
+    height: auto;
+   }
+
+.spacer {
+  flex: 1 1 auto;
+}
+
+.example-card-error{
+  color: red;
+}
